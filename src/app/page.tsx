@@ -73,7 +73,7 @@ export default function Home() {
       <div className="mt-12 max-w-2xl">
       {loading ? 
       (<div>loading</div>) :
-      (<div>{response}</div>)
+      (<div className="whitespace-pre-line">{response}</div>)
     }
       </div>
     </div>
